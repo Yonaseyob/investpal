@@ -31,7 +31,7 @@ SECRET_KEY = os.environ.get('SECRET_KEY')
 DEBUG = True
 
 ALLOWED_HOSTS = ['investpal-b6960efd237c.herokuapp.com', 'investpal.herokuapp.com',
-                 'localhost', '8000-yonaseyob-investpal-0pjg8i8wyo.us2.codeanyapp.com']
+                 'localhost', '8000-yonaseyob-investpal-qth7wk8l9t.us2.codeanyapp.com']
 
 
 # Application definition
