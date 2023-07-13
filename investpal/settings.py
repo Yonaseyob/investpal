@@ -29,7 +29,9 @@ TEMPLATES_DIR = os.path.join(BASE_DIR, 'templates')
 SECRET_KEY = os.environ.get('SECRET_KEY')
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
+
+X_FRAME_OPTIONS = 'SAMEORIGIN'
 
 ALLOWED_HOSTS = ['investpal-b6960efd237c.herokuapp.com', 'investpal.herokuapp.com',
                  'localhost', '8000-yonaseyob-investpal-qth7wk8l9t.us2.codeanyapp.com']
