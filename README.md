@@ -1,39 +1,107 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Investpal
+![image](https://github.com/Yonaseyob/investpal/assets/112119971/ed1c04e1-24f2-4bb6-aac2-74e2a5b76345)
 
-Welcome,
 
-This is the Code Institute student template for Codeanywhere. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+Investpal is a blog website dedicated to providing information about small business ideas around the world for users.
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Codeanywhere and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **May 11th, 2023**
+## Features 
 
-## Codeanywhere Reminders
+### Existing Features
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere, in the terminal, type:
+- __Navigation Bar__
 
-`python3 -m http.server`
+   ![image](https://github.com/Yonaseyob/investpal/assets/112119971/e60d860d-9a70-4f02-a0f4-e0106c3e226f)
 
-A button should appear to click: _Open Preview_ or _Open Browser_.
+  - Featured at the top of the page, the full responsive navigation bar includes the blog name, Home page on each page to allow for easy navigation, register, log in, and add logout depending on if the user is logged in.
+  - This section will allow the user to easily navigate from page to page across all devices without having to revert to the previous page via the ‘back’ button. 
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere with no-cache, you can use this alias for `python3 -m http.server`.
+- __The Home page__
 
-`http_server`
+   ![image](https://github.com/Yonaseyob/investpal/assets/112119971/db4fce90-b122-4459-8b40-e3759c2d3e3a)
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+  - The home page includes information about the webpage and the posts on the blog by the admin.
+  - By clicking the post title the registered user has the ability to read and comment on the posts.
 
-A button should appear to click: _Open Preview_ or _Open Browser_.
+- __The Footer__
 
-In Codeanywhere you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+  ![image](https://github.com/Yonaseyob/investpal/assets/112119971/e9582071-47b8-4fc5-a0cc-13245d35a700)
 
-To log into the Heroku toolbelt CLI:
+  - The footer section includes links to the relevant social media sites for Investpal. The links will open to a new tab to allow easy navigation for the user. 
+  - The footer is valuable to the user as it encourages them to keep connected via social media
 
-1. Log in to your Heroku account and go to _Account Settings_ in the menu under your avatar.
-2. Scroll down to the _API Key_ and click _Reveal_
-3. Copy the key
-4. In Codeanywhere, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+- __The Sign Up Page__
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+   ![image](https://github.com/Yonaseyob/investpal/assets/112119971/e30ff47e-5481-415f-b10a-637b42bbd25b)
 
----
+  - This page will allow the user to get signed up to Investpal to read and comment on posts. The user will be asked to submit their name.
 
-Happy coding!
+- __The log in page__
+
+   ![image](https://github.com/Yonaseyob/investpal/assets/112119971/d7ceae99-03d6-4ba0-8a8f-068c12cb7151)
+
+  - The login page has a form from Django Forms that allows users to log in to their account.
+
+ - __The logout page__
+
+   ![image](https://github.com/Yonaseyob/investpal/assets/112119971/05bdd507-9bc9-4d4a-9d93-c8cb49658147)
+
+   - The logout page shows the user a message if they are sure to log out with a confirmation signout button.
+
+ 
+### Features Left to Implement
+
+- I would like to expand the blog page to be more interactive for the users to be able to post their posts on the blog.
+
+ ### Technologies
+ 
+- __Languages used__
+ - HTML 
+ - CSS 
+ - JavaScript 
+ - Django libraries 
+- __Frameworks, Libraries, and Programs Used__
+  - Codeanywhere, for editing the code
+  - GitHub, used to host the project.
+  - Heroku, To deploy the webpage.
+  - ElephantSQL, as a database
+  - Cloudinary, as media and image host
+
+
+## Testing 
+
+I tested the blog website on my laptop by adding a post after deployment on Heroku and it works like what I expected. Unfortunately, I have a problem testing it on my phone because the URL from the deployed site heroku could not open on my phone. 
+
+### Validator Testing 
+
+- HTML
+  - I could not test the idevidual html fils on the W3c validater.
+- CSS
+  - No errors were found when passing through the official
+
+   ![image](https://github.com/Yonaseyob/investpal/assets/112119971/8b7150b0-55ac-4dc2-bc6b-763669a061db)
+ 
+### Unfixed Bugs
+
+  - Not found any
+
+## Deployment
+
+  - The site was deployed to Heroku. 
+  - In the Heroku dashboard navigate to the deploy tab 
+  - From the source section drop-down menu, select the Main Branch and clike the deploye button.
+ 
+The live link can be found here - https://investpal-b6960efd237c.herokuapp.com/
+
+## Credits 
+
+The general structure and implemented codes are adopted and reused from the code institute walkthrough project. 
+
+### Content 
+
+- The icons in the footer were taken from [Font Awesome](https://fontawesome.com/)
+
+### Media
+
+- The photos used on the posts are from google image
+
+
